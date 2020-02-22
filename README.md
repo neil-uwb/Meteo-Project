@@ -17,7 +17,7 @@ The focus of this project is on understanding how weather patterns propagate thr
 
 # Data Collected:
 	
-The first step after ingesting the data was to understand where there was rain and win. To do the data was normalized relative to their respective average values and broken up into sections. If the normalized value was less than a quarter of the value of the normalized average, then the programs assumed that the value was too low to be present. Using these criteria, the data was split into four options: rain and wind (yellow), just rain (green), just wind (blue), and neither (red). Below are the results found at the Oregon Shelf Surface Mooring (OSSM) and the Oregon Offshore Surface Mooring (OOSM) respectively.
+The first step after ingesting the data was to understand where there was rain and wind. In order to accomplish this, the data was normalized relative to their respective average values and broken up into sections. If the normalized value was less than a quarter of the value of the normalized average, then the programs assumed that the value was too low to be present. Using these criteria, the data was split into four options: rain and wind (yellow), just rain (green), just wind (blue), and neither (red). Below are the results found at the Oregon Shelf Surface Mooring (OSSM) and the Oregon Offshore Surface Mooring (OOSM) respectively.
  
 ![](https://github.com/neil-uwb/Meteo-Project/blob/master/Meteo%20Pics/PvW_OSSM.png)
 
@@ -39,7 +39,7 @@ The final piece of the data collection involves averaging the wind speed and pre
 
 # Analysis:
 
-Looking at the average values over each month, there appears to be some similarities to the cross-correlation results found. The large precipitation rate drop for the OSSM was in June, but for the OOSM was in October. This show quite a long lag time between similar precipitation conditions. On the other hand, wind speed appears to be quite similar, with both having low points in April and May. It is possible that these two locations are in a region with the same current and winds and because of the nature of how quickly wind can move, they experience similar conditions almost immediately, but since clouds take longer to move, similar weather patterns occur at very different times.
+Looking at the average values over each month, there appears to be some similarities to the cross-correlation results found. The large precipitation rate drop and peak for the OSSM was in June and July respectively, but for the OOSM was in October and November respectively. This show quite a long lag time between similar precipitation conditions. On the other hand, wind speed appears to be quite similar, with both having low points in April and May with high points in December. It is possible that these two locations are in a region with the same currents/winds and because of the nature of how quickly wind can move, they experience similar conditions almost immediately, but since clouds may take longer to move, similar weather patterns occur at very different times.
 
 ![](https://github.com/neil-uwb/Meteo-Project/blob/master/Meteo%20Pics/Currents.png)[2]
 
