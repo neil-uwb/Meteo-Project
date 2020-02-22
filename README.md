@@ -47,7 +47,9 @@ Given the data above and the analysis provided, I have concluded that wind patte
  
 # References:
 [1]	Abadi, S (2020). Meteorology Package Project. [online] University of Washington Bothell [Accessed 21 Feb. 2020]
+
 [2]	En.wikipedia.org. (2020). North Pacific Gyre. [online] Available at: https://en.wikipedia.org/wiki/North_Pacific_Gyre [Accessed 21 Feb. 2020].
+
 [3]	Babkin, V. (2020). ATMOSPHERIC PRECIPITATION OF THE EARTH. [online] Eolss.net. Available at: https://www.eolss.net/Sample-Chapters/C07/E2-02-03-01.pdf [Accessed 21 Feb. 2020].
 
 
