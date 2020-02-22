@@ -10,7 +10,8 @@ B ME 450
 # Intro:
 
 The focus of this project is on understanding how weather patterns propagate throughout the ocean. Using data ingested from the Ocean Observation Initiative (OOI), wind and precipitation rates were recorded and analyzed for any form of cross-correlation. These measurements all have come off the Bulk Meteorology Instrument Package, which “measures a variety of parameters that characterize weather conditions above the sea surface” [1].
-Data Collected:
+
+# Data Collected:
 	
 The first step after ingesting the data was to understand where there was rain and win. To do the data was normalized relative to their respective average values and broken up into sections. If the normalized value was less than a quarter of the value of the normalized average, then the programs assumed that the value was too low to be present. Using these criteria, the data was split into four options: rain and wind (yellow), just rain (green), just wind (blue), and neither (red). Below are the results found at the Oregon Shelf Surface Mooring (OSSM) and the Oregon Offshore Surface Mooring (OOSM) respectively.
  
